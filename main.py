@@ -7,9 +7,14 @@ col1, col2 = st.columns(2)
 with col1:
     st.image("images/photo.png")
 
-    with col2:
-        st.title("Odhrán Friel")
-        content = """
-        Hi, I am Odhrán! This is my project portfolio!
-        """
-        st.info(content)
+with col2:
+    st.title("Odhrán Friel")
+    content = """
+    Hi, I am Odhrán! This is my project portfolio!
+    """
+    st.info(content)
+
+content2 = """
+Below you can find some of the app I have built in Python. Feel free to contact me!
+"""
+st.write(content2)
